@@ -33,3 +33,8 @@ $('input').on('change', function() {
 menuItens.forEach(item => {
     item.addEventListener('click', scrollToIdOnClick);
 })
+
+function introdução(){
+  const introdução = document.querySelector(".abrirIntrodução");
+  introdução.style.display="";
+}
