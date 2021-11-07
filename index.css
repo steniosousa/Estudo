@@ -1,0 +1,132 @@
+ body {
+    margin: 0;
+    padding: 0;
+     width: 100%;
+    height: 100vh; 
+    background-color: black;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+  } 
+
+.logoPesquisa{
+    display: flex;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    height: 40px;
+    width: auto;
+    border-radius: 0px 00px 15px 0px;
+    
+}
+p{
+    color: white;
+    margin-right: 20px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+li{
+    display: flex;
+    justify-content: space-around;
+    border-bottom:1px dotted rgba(128, 128, 128, 0.233) ;
+   
+}
+a{
+    color: white;
+    border: 1px solid rgba(128, 128, 128, 0.233);
+    padding: 5px 15px;
+    border-radius: 10px 10px 0px 0px ;
+    text-decoration: none;
+    
+}
+a:hover{
+    background: #ff8;
+  color: black;
+}
+
+
+
+    
+
+ input[type=radio] {
+  display: none;
+}
+
+.card {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: transform .4s ease;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  max-height: 600px;
+  height: 100%;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+#item-1:checked ~ .cards #song-3, #item-2:checked ~ .cards #song-1, #item-3:checked ~ .cards #song-2 {
+  transform: translatex(-40%) scale(.8);
+  opacity: .4;
+  z-index: 0;
+}
+
+#item-1:checked ~ .cards #song-2, #item-2:checked ~ .cards #song-3, #item-3:checked ~ .cards #song-1 {
+  transform: translatex(40%) scale(.8);
+  opacity: .4;
+  z-index: 0;
+}
+
+#item-1:checked ~ .cards #song-1, #item-2:checked ~ .cards #song-2, #item-3:checked ~ .cards #song-3 {
+  transform: translatex(0) scale(1);
+  opacity: 1;
+  z-index: 1;
+  
+  
+} 
+.documentação{
+    text-align: center;
+    height: 70vh;
+    width: 100%;
+
+
+}
+.documentação h1{
+    color: white;
+}
+.documentação p{
+    
+    margin-left: 15px;
+   
+        
+}
