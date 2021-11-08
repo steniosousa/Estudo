@@ -164,3 +164,7 @@ function sala(){
   doar.style.display="none";
 
 }
+
+function desafios() {
+  alert("Indiponíveis no momento");
+}
