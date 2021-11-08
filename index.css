@@ -15,11 +15,18 @@
     display: flex;
     justify-content: space-between;
 }
-.logo img{
+.sala{
     height: 40px;
     width: auto;
     border-radius: 0px 00px 15px 0px;
     
+}
+#doar{
+    height: 40px;
+    width: 101.33px;
+    border-radius: 0px 0px 0px 15px;
+    
+
 }
 p{
     color: white;
@@ -46,14 +53,9 @@ a{
     
 }
 a:hover{
-    background: #ff8;
+  background: #ff8;
   color: black;
 }
-
-
-
-    
-
  input[type=radio] {
   display: none;
 }
@@ -91,7 +93,7 @@ a:hover{
 img {
   width: 100%;
   height: 100%;
-  border-radius: 10px;
+  border-radius: 10px;  
   object-fit: cover;
 }
 
@@ -132,6 +134,7 @@ img {
   height: auto;
   width: 100%;
   background-color: rgba(128, 128, 128, 0.24);
+  border-radius: 20px 20px 0px 0px;
 }
 .conteúdo span{
   color: white;
@@ -140,4 +143,26 @@ img {
 }
 .aulas{
   display: none;
+}
+.desafios{
+  text-align: center;
+  height: auto;
+
+}
+
+
+.caso01 img{
+  margin-top: 30px;
+  border-radius: 0;
+  border-radius: 5px 5px 0px 0px;
+
+}
+.caso01 p{
+  color: white;
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 30px;
+  padding-left: 15px;
+  border-left: 7px solid red;
+ 
 }
