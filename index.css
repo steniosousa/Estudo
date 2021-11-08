@@ -138,3 +138,6 @@ img {
   line-height: 5;
   border-bottom: 1px dotted black;
 }
+.aulas{
+  display: none;
+}
