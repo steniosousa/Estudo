@@ -35,6 +35,87 @@ menuItens.forEach(item => {
 })
 
 function introdução(){
-  const introdução = document.querySelector(".abrirIntrodução");
+  let introdução = document.querySelector(".abrirIntrodução");
+  let about = document.querySelector(".abrirAbout");
+  let sintaxe = document.querySelector(".abrirSintaxe");
+  let condicionais = document.querySelector(".abrirCondicionais");
+  let laços = document.querySelector(".abrirLaços");
+  let funcoes = document.querySelector(".abrirfuncoes");
   introdução.style.display="";
+  about.style.display="none";
+  sintaxe.style.display="none";
+  condicionais.style.display="none";
+  laços.style.display="none";
+  funcoes.style.display="none";
+}
+function oQue(){
+  let introdução = document.querySelector(".abrirIntrodução");
+  let about = document.querySelector(".abrirAbout");
+  let sintaxe = document.querySelector(".abrirSintaxe");
+  let condicionais = document.querySelector(".abrirCondicionais");
+  let laços = document.querySelector(".abrirLaços");
+  let funcoes = document.querySelector(".abrirfuncoes");
+  introdução.style.display="none";
+  about.style.display="";
+  sintaxe.style.display="none";
+  condicionais.style.display="none";
+  laços.style.display="none";
+  funcoes.style.display="none";
+}
+function sintaxe(){
+  let introdução = document.querySelector(".abrirIntrodução");
+  let about = document.querySelector(".abrirAbout");
+  let sintaxe = document.querySelector(".abrirSintaxe");
+  let condicionais = document.querySelector(".abrirCondicionais");
+  let laços = document.querySelector(".abrirLaços");
+  let funcoes = document.querySelector(".abrirfuncoes");
+  introdução.style.display="none";
+  about.style.display="none";
+  sintaxe.style.display="";
+  condicionais.style.display="none";
+  laços.style.display="none";
+  funcoes.style.display="none";
+}
+function condicionais(){
+  let introdução = document.querySelector(".abrirIntrodução");
+  let about = document.querySelector(".abrirAbout");
+  let sintaxe = document.querySelector(".abrirSintaxe");
+  let condicionais = document.querySelector(".abrirCondicionais");
+  let laços = document.querySelector(".abrirLaços");
+  let funcoes = document.querySelector(".abrirfuncoes");
+  introdução.style.display="none";
+  about.style.display="none";
+  sintaxe.style.display="none";
+  condicionais.style.display="";
+  laços.style.display="none";
+  funcoes.style.display="none";
+}
+function laços(){
+  let introdução = document.querySelector(".abrirIntrodução");
+  let about = document.querySelector(".abrirAbout");
+  let sintaxe = document.querySelector(".abrirSintaxe");
+  let condicionais = document.querySelector(".abrirCondicionais");
+  let laços = document.querySelector(".abrirLaços");
+  let funcoes = document.querySelector(".abrirfuncoes");
+  introdução.style.display="none";
+  about.style.display="none";
+  sintaxe.style.display="none";
+  condicionais.style.display="none";
+  laços.style.display="";
+  funcoes.style.display="none";
+}
+function funcoes(){
+  let introdução = document.querySelector(".abrirIntrodução");
+  let about = document.querySelector(".abrirAbout");
+  let sintaxe = document.querySelector(".abrirSintaxe");
+  let condicionais = document.querySelector(".abrirCondicionais");
+  let laços = document.querySelector(".abrirLaços");
+  let funcoes = document.querySelector(".abrirfuncoes");
+  introdução.style.display="none";
+  about.style.display="none";
+  sintaxe.style.display="none";
+  condicionais.style.display="none";
+  laços.style.display="none";
+  funcoes.style.display="";
+
 }
