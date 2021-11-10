@@ -189,3 +189,12 @@ article img{
   background-color: black;
   height: auto;
 }
+@media (min-width:596px){
+  body{
+    left: 30%;
+    position:absolute;
+    height: 100vh;
+    max-width: 596px;
+  };
+}
+
